@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match snapshot 1`] = `
+<div
+  className="App"
+>
+  <label
+    htmlFor="check"
+  >
+    Show First Component
+  </label>
+  <input
+    checked={true}
+    data-testid="check"
+    id="check"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <Component1 />
+</div>
+`;
